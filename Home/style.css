@@ -57,6 +57,7 @@ body{
     height: 120px;
     object-fit: fill;
     display: block;
+    transform: translateY(8rem);
     /* border-top: 2px solid #333333;
     border-right: 2px solid #333333;
     border-left: 2px solid #333333; */
@@ -69,6 +70,7 @@ body{
     background: rgba(86, 16, 90, 0.5);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 12px;
+    padding-top: 8rem;
     /* background: #fafafa; */
     /* border-right: 2px solid #333333;
     border-left: 2px solid #333333; */
