@@ -17,3 +17,7 @@
     font-size: 2rem;
     width: 65rem;
 }
+
+body{
+    height: 170vh !important;
+  }

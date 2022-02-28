@@ -440,6 +440,16 @@ footer {
   padding: 0 0.5rem;
 }
 
+body{
+  height: 265vh !important;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
 /* .card-3{
   display: none;
   background: linear-gradient(
