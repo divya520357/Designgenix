@@ -1,13 +1,47 @@
-{"menu": {
-    "drinks": [
-      {"coke": "20"},
-      {"pepsi": "20"},
-      {"water": "20"}
-      
-    ],
-    "junk-food": [
-      {"hamburger": "40"},
-      {"fries": "20"},
-      {"pizza": "20"}
-    ]
-  }}
+{
+  "data":[
+  {
+    "id": 1,
+    "name": "Pizza",
+    "price": "10",
+    "image": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "id": 2,
+    "name": "Burger",
+    "price": "20",
+    "image": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "id": 3,
+    "name": "Pizza",
+    "price": "10",
+    "image": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "id": 4,
+    "name": "Burger",
+    "price": "20",
+    "image": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "id": 5,
+    "name": "Pizza",
+    "price": "10",
+    "image": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "id": 6,
+    "name": "Burger",
+    "price": "20",
+    "image": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  {
+    "id": 7,
+    "name": "Pizza",
+    "price": "10",
+    "image": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  }
+
+]
+}
