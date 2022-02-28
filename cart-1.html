@@ -111,7 +111,10 @@
                                 <p class="p2-light">$67.99</p>
                             </div>
                             <div class="choose-quantity">
-                                <input type="number" id="quantity" name="quantity" min="0" value="3">
+                                <!-- <input type="number" id="quantity" name="quantity" min="0" value="3"> -->
+                                <button id="minus1">-</button>
+                                <div id="item_no1"></div>
+                                <button id="plus1">+</button>
                             </div>
                         </div>
                     </div>
@@ -128,7 +131,10 @@
                                 <p class="p2-light">$67.99</p>
                             </div>
                             <div class="choose-quantity">
-                                <input type="number" id="quantity" name="quantity" min="0" value="1">
+                                <!-- <input type="number" id="quantity" name="quantity" min="0" value="1"> -->
+                                <button id="minus2">-</button>
+                                <div id="item_no2"></div>
+                                <button id="plus2">+</button>
                             </div>
                         </div>
                     </div>
@@ -145,7 +151,10 @@
                                 <p class="p2-light">$67.99</p>
                             </div>
                             <div class="choose-quantity">
-                                <input type="number" id="quantity" name="quantity" min="0" value="2">
+                                <!-- <input type="number" id="quantity" name="quantity" min="0" value="2"> -->
+                                <button id="minus3">-</button>
+                                <div id="item_no3"></div>
+                                <button id="plus3">+</button>
                             </div>
                         </div>
                     </div>
@@ -157,9 +166,9 @@
                                 Subz Dum Biryani<br>
                             </div>
                             <div class="item-bill">
-                                $180<br><br>
-                                $60<br><br>
-                                $120<br><br>
+                                $<span id="burger">180</span><br><br>
+                                $<span id="pizza">60</span><br><br>
+                                $<span id="biryani">120</span><br><br>
                             </div>
                         </div>
                         <div class="connecting-line" style="width: 63.5rem;"></div>
@@ -170,7 +179,7 @@
                                 Discount<br>
                             </div>
                             <div class="item-bill">
-                                $360<br><br>
+                                $<span id="sub-total">0</span><br><br>
                                 $30<br><br>
                                 $20<br><br>
                                 -$10
@@ -182,7 +191,7 @@
                                <br>Total
                             </div>
                             <div class="item-bill" style="font-weight: bolder;">
-                                <br><br>$400
+                                <br><br>$<span id="total">0</span>
                             </div>
                         </div>
                         <button id="next1" class="next">

@@ -419,6 +419,27 @@ footer {
   display: none;
 }
 
+.choose-quantity{
+  display: flex;
+}
+
+.choose-quantity div{
+  width: 5vw;
+  background: #77117B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.choose-quantity button{
+  background: #77117B;
+  border-radius: 2px;
+  border: none;
+  color: white;
+  padding: 0 0.5rem;
+}
+
 /* .card-3{
   display: none;
   background: linear-gradient(
