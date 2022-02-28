@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile | Foodgenix</title>
+    <script src="https://kit.fontawesome.com/e47f59bf81.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Profile/assets/css/header.css">
+    <link rel="stylesheet" href="Profile/assets/css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1100px)" href="Profile/assets/css/responsive.css">
+</head>
+
+<body>
+    <header id="navbar">
+        <div id="box">
+            <div class="search">
+                <form action="">
+                    <input type="text" placeholder="Search here..." name="" id="">
+                </form>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <h3 id="logo">Foodgenix</h3>
+        <a class="anchor" href="#">
+            <div class="home">
+                <!-- <a href="#"><span>HOME</span></a> -->
+                <span id="home">HOME</span>
+            </div>
+        </a>
+        <div class="cart-profile">
+            <a class="anchor" href="cart-1.html">
+                <div class="cart">
+                    <i id="cart-icon" class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </a>
+            <a class="anchor" href="profile.html">
+                <div class="profile">
+                    <i id="profile-icon" class="fa-solid fa-user"></i>
+                </div>
+            </a>
+        </div>
+    </header>
+    <section class="container">
+        <div class="buttons">
+            <button id="profile">My Profile</button>
+            <button id="order-history">Order History</button>
+            <button id="address">Delivery Address</button>
+        </div>
+        <div class="sub-container">
+            <div class="card_1">
+                <p>Name</p>
+                <form action="">
+                    <input placeholder="Enter your name" type="text">
+                </form>
+                <p>Phone number</p>
+                <form action="">
+                    <input placeholder="Enter your phone number" type="text">
+                </form>
+                <p>Address</p>
+                <form action="">
+                    <input placeholder="Enter your address" type="text">
+                </form>
+                <div class="form-btn">
+                    <button type="reset" id="cancel">Cancel</button>
+                    <button type="submit" id="update">Update</button>
+                </div>
+            </div>
+            <div class="card_2">
+                <div class="item">
+                    <div class="item-img">
+                        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=699&q=80"
+                            alt="">
+                    </div>
+                    <div class="item-info">
+                        <h3>Double Paneer Club Burger</h3>
+                        <span>18:00 | 24/01/22</span>
+                        <p>The Burger Club</p>
+                        <p class="p2">$60.00</p>
+                        <div class="place-order">
+                            <button id="order1">Re-order</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80"
+                            alt="">
+                    </div>
+                    <div class="item-info">
+                        <h3>Garden Delight Pizza</h3>
+                        <span>18:00 | 24/01/22</span>
+                        <p>La Pino’z Pizza</p>
+                        <p class="p2">$60.00</p>
+                        <div class="place-order">
+                            <button id="order2">Re-order</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=510&q=80"
+                            alt="">
+                    </div>
+                    <div class="item-info">
+                        <h3>Subz Dum Biryani</h3>
+                        <span>18:00 | 24/01/22</span>
+                        <p>Behrouz Biryani</p>
+                        <p class="p2">$60.00</p>
+                        <div class="place-order">
+                            <button id="order3">Re-order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card_3">
+                <div class="address-block">
+                    <div class="radio">
+                        <form action="">
+                            <input type="radio" name="myaddress" id="myaddress">
+                        </form>
+                    </div>
+                    <div class="address-info">
+                        <h3>Surbhi Singh</h3>
+                        <div class="street-zip-city-phone">
+                            <div class="street-zip">
+                                <p>Street: 214 Street</p>
+                                <p>Zip code 85225</p>
+                            </div>
+                            <div class="city-phone">
+                                <span>City: Kerela</span>
+                                <span id="state">State/province/area: Kerela</span>
+                                <p>Phone number: 480-545-6917</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="address-block">
+                    <div class="radio">
+                        <form action="">
+                            <input type="radio" name="myaddress" id="myaddress">
+                        </form>
+                    </div>
+                    <div class="address-info">
+                        <h3>Surbhi Singh</h3>
+                        <div class="street-zip-city-phone">
+                            <div class="street-zip">
+                                <p>Street: 214 Street</p>
+                                <p>Zip code 85225</p>
+                            </div>
+                            <div class="city-phone">
+                                <span>City: Kerela</span>
+                                <span id="state">State/province/area: Kerela</span>
+                                <p>Phone number: 480-545-6917</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="address-block">
+                    <div class="radio">
+                        <form action="">
+                            <input type="radio" name="myaddress" id="myaddress">
+                        </form>
+                    </div>
+                    <div class="address-info">
+                        <h3>Surbhi Singh</h3>
+                        <div class="street-zip-city-phone">
+                            <div class="street-zip">
+                                <p>Street: 214 Street</p>
+                                <p>Zip code 85225</p>
+                            </div>
+                            <div class="city-phone">
+                                <span>City: Kerela</span>
+                                <span id="state">State/province/area: Kerela</span>
+                                <p>Phone number: 480-545-6917</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button id="new_address">+ Add new Address</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="copyright">
+            <div class="socials">
+                <div class="socials-bg">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="socials-bg">
+                    <i class="fa-brands fa-dribbble"></i>
+                </div>
+                <div class="socials-bg">
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="socials-bg">
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+            <span>Copyright &copy; 2022 Food delivery website</span>
+            <span>All rights reserved</span>
+        </div>
+        <div class="company">
+            <h3>Company</h3>
+            <p>About us</p>
+            <p>Blog</p>
+            <p>Contact us</p>
+            <p>Pricing</p>
+            <p>Testimonials</p>
+        </div>
+        <div class="support">
+            <h3>Support</h3>
+            <p>Help center</p>
+            <p>Terms of service</p>
+            <p>Legal</p>
+            <p>Privacy policy</p>
+            <p>Status</p>
+        </div>
+        <div class="up-to-date">
+            <h3>Stay up to date</h3>
+            <div class="form">
+                <form action="">
+                    <input type="text" placeholder="Your email address">
+                </form>
+                <i class="fa-solid fa-paper-plane"></i>
+            </div>
+        </div>
+    </footer>
+    <script src="Profile/js/index.js"></script>
+    <script src="Profile/js/Header.js"></script>
+</body>
+
+</html>

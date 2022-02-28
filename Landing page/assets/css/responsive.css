@@ -1,0 +1,11 @@
+.container{
+    width: 80vw;
+    height: 50vh;
+}
+
+.circle{
+    right: 3px;
+    height: 10rem;
+    width: 10rem;
+    top: 140px;
+}

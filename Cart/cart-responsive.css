@@ -1,0 +1,19 @@
+.stat-numbers{
+    zoom:0.55;
+}
+.stat{
+    zoom:0.75;
+}
+
+.item-bill{
+    /* width: 50vw; */
+    padding: 1rem 1rem 0rem 20rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 5rem;
+}
+
+.address-textarea {
+    font-size: 2rem;
+    width: 65rem;
+}

@@ -1,0 +1,71 @@
+html{
+    font-size: 30%;
+}
+
+.search{
+    width: 23vw;
+}
+
+.container {
+    margin: 10rem 8rem;
+}
+
+.container .buttons button{
+    padding: 1rem 3rem;
+    font-size: 2rem;
+}
+
+.card_1{
+    padding: 8rem 5rem;
+}
+
+.card_1 input{
+    /* margin: 4rem 0; */
+    margin: 4rem 0;
+    width: 100%;
+    font-size: 2rem;
+}
+
+.card_2 .item{
+    padding: 2rem;
+    margin: 4rem 1rem;
+}
+
+.card_2 .item .item-info {
+    margin-left: 4rem;
+}
+
+.card_3 .address-block{
+    margin: 5rem 2rem;
+}
+
+.address-block p, .address-block span {
+    font-size: 1.3rem;
+}
+
+.street-zip-city-phone{
+    width: 44rem;
+}
+
+
+
+footer{
+    flex-direction: column-reverse;
+    padding: 3rem;
+}
+
+footer .up-to-date .form{
+    width: 28rem;
+}
+
+footer .up-to-date .form input{
+    font-size: 1.5rem;
+}
+
+footer .copyright .socials .socials-bg {
+    margin: 1rem 1rem 1rem 0rem;
+}
+
+footer .copyright span {
+    margin: 0.5rem 0rem;
+}
