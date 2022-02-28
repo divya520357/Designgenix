@@ -66,6 +66,15 @@ body {
   justify-content: center;
 }
 
+/* .card__content .prize{
+  display:flex;
+  font-size: 1rem;
+} */
+
+.card__content img{
+    margin-top: 1rem;
+  width: 16rem;
+}
 .browse {
   /* position: absolute; */
   width: 68rem;
