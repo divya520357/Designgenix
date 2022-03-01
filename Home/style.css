@@ -317,6 +317,15 @@ cursor: pointer;
 #burger:hover{
     cursor: pointer;
 }
+#pizza{
+  background: none;
+  border: none;
+  color: white;
+}
+
+#pizza:hover{
+  cursor: pointer;
+}
 
 .card .card__image:hover{
   cursor: pointer;
