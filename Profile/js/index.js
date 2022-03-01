@@ -14,6 +14,12 @@ document.querySelector("#profile").addEventListener("click", function () {
   document.querySelector(".sub-container").style.borderRadius =
     "0 12px 12px 12px";
 });
+document.querySelector("#update").addEventListener("click", function () {
+  document.querySelector("#update").innerHTML = "Updated ✔️";
+  document.querySelector("#update").style.background = "#c9256b";
+});
+
+
 document.querySelector("#new_address").addEventListener("click", function () {
   card_1.style.display = "block";
   card_2.style.display = "none";
