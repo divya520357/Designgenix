@@ -20,11 +20,31 @@
     height: 32rem !important;
 }
 
+.browse{
+    width: 50rem;
+}
+
 .browse p{
     line-height: normal;
-    font-size: 6.4rem;
+    font-size: 5.4rem;
+}
+
+.items{
+    width: 80vw;
 }
 
 .items__bg{
     margin: 0px 0.5rem;
+}
+
+.card__image{
+    width: auto;
+}
+
+.card__content{
+    padding: 35px;
+}
+
+.card__content img{
+    width: 30rem;
 }
