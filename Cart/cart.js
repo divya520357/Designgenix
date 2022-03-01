@@ -120,9 +120,14 @@ document.querySelector(".pay-now").addEventListener("click", function () {
 });
 
 document.getElementById("item_no3").innerHTML = k;
-document.getElementById("burger").innerHTML = i;
+document.getElementById("burger").innerHTML = 60;
 document.getElementById("pizza").innerHTML = j;
 document.getElementById("biryani").innerHTML = k;
+document.querySelector(".pay-now").addEventListener("click", function () {
+  document.querySelector(".pay-now").innerHTML = 'Order placed 🤤';
+  document.querySelector(".pay-now").style.width = 'auto';
+  document.querySelector(".pay-now").style.background = '#c9256b';
+});
 
 document.getElementById("pay-card-2").addEventListener("click", function () {
   document.querySelector(".payment-details").style.display = "block";
