@@ -7,12 +7,13 @@ document.getElementById("button2").addEventListener("click", function () {
   document.querySelector(".card_1").style.display = "block";
   document.querySelector(".card_2").style.display = "none";
   document.querySelector(".card_3").style.display = "none";
+  document.querySelector(".card-3").style.display = "block";
   document.getElementById("button1").style.background = "none";
   document.getElementById("button1").style.color = "white";
   document.getElementById("button2").style.background = "white";
   document.getElementById("button2").style.color = "#77117b";
   document.getElementById("button3").style.background = "none";
-  document.getElementById("button3").style.color = "white";
+  document.getElementById("button3").style.color = "white"
 });
 document.getElementById("button1").addEventListener("click", function () {
   document.querySelector(".card_1").style.display = "none";
