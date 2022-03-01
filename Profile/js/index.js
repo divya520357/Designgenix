@@ -54,10 +54,13 @@ document.querySelector("#address").addEventListener("click", function () {
 });
 document.querySelector("#order1").addEventListener("click", function () {
     document.querySelector("#order1").innerHTML = "Added to cart ✔️";
+    document.querySelector("#order1").style.background = "#c9256b";
 });
 document.querySelector("#order2").addEventListener("click", function () {
     document.querySelector("#order2").innerHTML = "Added to cart ✔️";
+    document.querySelector("#order2").style.background = "#c9256b";
 });
 document.querySelector("#order3").addEventListener("click", function () {
     document.querySelector("#order3").innerHTML = "Added to cart ✔️";
+    document.querySelector("#order3").style.background = "#c9256b";
 });

@@ -211,7 +211,7 @@ header a {
   margin-bottom: 1rem;
 }
 
-.place-order {
+/* .place-order {
   background: #77117b;
   padding: 0.5rem 1rem;
   width: 16vh;
@@ -226,7 +226,7 @@ header a {
 
 .place-order:visited{
   background: green;
-}
+} */
 
 .place-order span{
   font-size: 2rem;

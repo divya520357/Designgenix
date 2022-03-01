@@ -11,6 +11,7 @@
     font-style: normal;
     font-weight: normal;
     line-height: 5rem;
+    font-size: 3rem;
 }
 
 .address-textarea {
@@ -19,5 +20,15 @@
 }
 
 body{
-    height: 215vh !important;
+    height: 200vh !important;
   }
+
+.item-name{
+    font-size: 3rem;
+}
+
+.next{
+    width: 120px;
+    height: 32px;
+    font-size: 20px;
+}

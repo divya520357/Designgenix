@@ -45,6 +45,8 @@ html{
 
 .street-zip-city-phone{
     width: 44rem;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 

@@ -441,13 +441,46 @@ footer {
 }
 
 body{
-  height: 265vh !important;
+  height: 350vh !important;
 }
 
 footer{
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+#button1{
+  background: white;
+  color: #77117B;
+  border: 1px solid white;
+  padding: 0 1rem;
+}
+
+#button2{
+  background: none;
+  color: white;
+  border: 1px solid white;
+  padding: 0 1rem;
+}
+
+#button2:hover{
+  cursor: pointer;
+  color: #77117B;
+  background: white;
+}
+
+#button3{
+  background: none;
+  color: white;
+  border: 1px solid white;
+  padding: 0 1rem;
+}
+
+#button3:hover{
+  cursor: pointer;
+  color: #77117B;
+  background: white;
 }
 
 /* .card-3{
