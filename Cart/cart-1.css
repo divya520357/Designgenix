@@ -268,7 +268,7 @@ a:visited{
 
 #card-expire{
   background-color: rgba(149,61,128,0);
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0);
   border-color: #fff;
   margin: 0rem 1rem;
   height: 3rem;
