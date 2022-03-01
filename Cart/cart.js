@@ -103,6 +103,11 @@ document.getElementById("plus3").addEventListener("click", function () {
   document.getElementById("sub-total").innerHTML = i*60 + j*60 + k*60;
   document.getElementById("total").innerHTML = (i*60 + j*60 + k*60) + 40;
 });
+document.getElementById("place-order").addEventListener("click", function () {
+  document.getElementById("place-order").innerHTML = 'Order placed 🤤';
+  document.getElementById("place-order").style.width = 'auto';
+  document.getElementById("place-order").style.background = '#c9256b';
+});
 document.getElementById("item_no3").innerHTML = k;
 document.getElementById("burger").innerHTML = i;
 document.getElementById("pizza").innerHTML = j;
