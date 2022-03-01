@@ -114,7 +114,7 @@ document.getElementById("place-order").addEventListener("click", function () {
   document.getElementById("place-order").style.background = '#c9256b';
 });
 document.getElementById("item_no3").innerHTML = k;
-document.getElementById("burger").innerHTML = i;
+document.getElementById("burger").innerHTML = 60;
 document.getElementById("pizza").innerHTML = j;
 document.getElementById("biryani").innerHTML = k;
 
