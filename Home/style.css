@@ -343,8 +343,40 @@ backdrop-filter: blur(42px);
 border-radius: 13px;
 }
 
+.load-button{
+  display: flex;
+  justify-content: center;
+  width:100vw;
+  margin:2rem;
+  
+}
+.load{
+  width: 16rem;
+  height: 4rem;
+  background-color: #D1B3D2;
+  border-radius: 8px;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: 41px;
+  color: #000000;
+  border:none;
+  font-size: 2rem;
+}
 .order-button:hover{
   background: #c6246c;
   cursor: pointer;
   transform: scale(1.2);
+}
+
+.pizza{
+  display: none;
+}
+
+.load-load-button{
+  display: flex;
+  justify-content: center;
+}
+
+.load:hover{
+  cursor: pointer;
 }

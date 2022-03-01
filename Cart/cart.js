@@ -113,6 +113,12 @@ document.getElementById("place-order").addEventListener("click", function () {
   document.getElementById("place-order").style.width = 'auto';
   document.getElementById("place-order").style.background = '#c9256b';
 });
+document.querySelector(".pay-now").addEventListener("click", function () {
+  document.querySelector(".pay-now").innerHTML = 'Order placed 🤤';
+  document.querySelector(".pay-now").style.width = 'auto';
+  document.querySelector(".pay-now").style.background = '#c9256b';
+});
+
 document.getElementById("item_no3").innerHTML = k;
 document.getElementById("burger").innerHTML = 60;
 document.getElementById("pizza").innerHTML = j;
