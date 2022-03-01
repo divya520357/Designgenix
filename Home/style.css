@@ -80,13 +80,14 @@ body {
   width: 68rem;
   background: #ffffff;
   border-radius: 40px;
+  transform: translateY(2rem);
 }
 
 .browse p {
   font-family: Jost;
   font-style: normal;
   font-weight: normal;
-  font-size: 64px;
+  font-size: 6.4rem;
   text-align: center;
   line-height: 92px;
   color: #76117c;
@@ -254,6 +255,8 @@ body {
     font-size: 5rem;
     display:flex;
     justify-content:center;
+    transition: all 0.2s ease-in-out;
+    align-items: center;
 }
 .items-container{
     display: flex;
@@ -275,6 +278,7 @@ body {
   border-radius: 10px;
   width: 70vw;
   padding: 1rem;
+  margin-bottom: -5rem;
 }
 
 .items__bg {
@@ -312,4 +316,26 @@ cursor: pointer;
 
 #burger:hover{
     cursor: pointer;
+}
+
+.card .card__image:hover{
+  cursor: pointer;
+}
+
+.card .card__content:hover{
+  cursor: pointer;
+}
+
+#all_bg{
+  background: linear-gradient(135.77deg, rgba(255, 255, 255, 0.4) -94.16%, rgba(255, 255, 255, 0) 100%);
+backdrop-filter: blur(42px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 13px;
+}
+
+.order-button:hover{
+  background: #c6246c;
+  cursor: pointer;
+  transform: scale(1.2);
 }

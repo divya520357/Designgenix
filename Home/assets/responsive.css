@@ -1,0 +1,30 @@
+.curve{
+    height: 30vh;
+}
+
+.homehead h1{
+    line-height: normal;
+    font-size: 9rem;
+}
+
+.homehead h2{
+    font-size: 3.5rem;
+}
+
+.homeimg img {
+    width: 100%;
+    transform: translateY(-6.5rem);
+}
+
+.HomePage{
+    height: 32rem !important;
+}
+
+.browse p{
+    line-height: normal;
+    font-size: 6.4rem;
+}
+
+.items__bg{
+    margin: 0px 0.5rem;
+}

@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="Profile/assets/css/style.css">
   <link rel="stylesheet" href="Home\style.css">
   <link rel="stylesheet" media="screen and (max-width: 1100px)" href="Profile/assets/css/responsive.css">
-
+  <link rel="stylesheet" media="screen and (max-width: 1100px)" href="Home/assets/responsive.css">
 </head>
 
 <body>
@@ -73,7 +73,7 @@
   <div class="items-container">
 
     <div class="items">
-      <div class="items__bg">
+      <div class="items__bg" id="all_bg">
         <img src="Home/assets/Group.png" alt="">
         <span>All</span>
     </div>
@@ -306,6 +306,14 @@
   <script src="Home/card.json"></script>
   <script>
     document.querySelector("#burger").addEventListener("click", function () {
+      document.querySelector('.card2').style.display = 'flex';
+});
+    document.querySelector(".card2").addEventListener("click", function () {
+      document.querySelector('.card2').style.display = 'none';
+});
+    document.querySelector(".order-button").addEventListener("click", function () {
+      document.querySelector('.order-button').innerHTML = 'Order Placed! 🤤';
+      document.querySelector('.order-button').style.width = '45rem';
       document.querySelector('.card2').style.display = 'flex';
 });
   </script>
