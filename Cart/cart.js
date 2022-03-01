@@ -57,7 +57,7 @@ document.getElementById("pay-card").addEventListener("click", function () {
 
 // console.log(document.querySelector("#item_no1"));
 
-var i = 0;
+var i = 1;
 
 document.getElementById("minus1").addEventListener("click", function () {
   i = i - 1;
