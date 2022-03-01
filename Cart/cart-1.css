@@ -300,6 +300,11 @@ div.cvv{
     margin: 2rem 1rem;
 }
 
+#pay-card{
+  width:1rem;
+  height: 1rem;
+  border: none;
+}
 .pay-now{
   width: 17rem;
 height: 5rem;

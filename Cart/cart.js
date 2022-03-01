@@ -50,6 +50,10 @@ document.getElementById("button3").addEventListener("click", function () {
   document.getElementById("button3").style.color = "#77117b";
 });
 
+document.getElementById("pay-card").addEventListener("click", function () {
+  document.querySelector(".payment-details").style.display = "block";
+});
+
 // console.log(document.querySelector("#item_no1"));
 
 var i = 0;
