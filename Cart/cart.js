@@ -116,3 +116,7 @@ document.getElementById("item_no3").innerHTML = k;
 document.getElementById("burger").innerHTML = i;
 document.getElementById("pizza").innerHTML = j;
 document.getElementById("biryani").innerHTML = k;
+
+document.getElementById("pay-card-2").addEventListener("click", function () {
+  document.querySelector(".payment-details").style.display = "block";
+});
