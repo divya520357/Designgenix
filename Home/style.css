@@ -7,13 +7,13 @@ body {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 95vh;
+  height: 85vh;
   z-index: -1;
   border-radius: 0 0 50% 50%/0 0 100% 100%;
   background: radial-gradient(
     50% 62.97% at 50% 37.03%,
-    #c6246c 1.93%,
-    #74107c 100%
+    #BED8D4 1.93%,
+    #2081C3 100%
   );
   transform: scaleX(1.6);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -51,7 +51,7 @@ body {
   font-size: 4.5rem;
   /* line-height: 75px; */
   text-align: center;
-  color: #e6b2ea;
+  color: black;
   margin: 2rem;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -76,11 +76,10 @@ body {
   width: 16rem;
 }
 .browse {
-  /* position: absolute; */
   width: 68rem;
-  background: #ffffff;
+  background-color: black;
   border-radius: 40px;
-  transform: translateY(2rem);
+  transform: translateY(-1rem);
 }
 
 .browse p {
@@ -90,7 +89,8 @@ body {
   font-size: 6.4rem;
   text-align: center;
   line-height: 92px;
-  color: #76117c;
+  /* color: black; */
+  ;
 }
 
 .space {
@@ -130,7 +130,7 @@ body {
   line-height: 1.5;
   font-size: 0.9em;
   padding: 15px;
-  background: rgba(86, 16, 90, 0.5);
+  background: #2081C3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 12px;
   padding-top: 8rem;
@@ -268,13 +268,7 @@ body {
   align-items: center;
   justify-content: center;
   margin: 5rem 0;
-  background: linear-gradient(
-    180deg,
-    #76117c 0%,
-    rgba(118, 17, 124, 0) 48.96%,
-    #76117c 99.98%,
-    rgba(118, 17, 124, 0.0260417) 99.99%
-  );
+  background:#63D2FF;
   border-radius: 10px;
   width: 70vw;
   padding: 1rem;
@@ -371,7 +365,7 @@ border-radius: 13px;
 .load{
   width: 16rem;
   height: 4rem;
-  background-color: #D1B3D2;
+  background-color: #63D2FF;
   border-radius: 8px;
   font-family: Open Sans;
   font-weight: 600;
