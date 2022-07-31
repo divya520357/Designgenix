@@ -7,13 +7,11 @@
   body {
     height: 100vh;
     width: 100%;
-    background: linear-gradient(
-      180deg,
-      #c6246c 3.91%,
-      #c9256b 3.91%,
-      #74107c 100%,
-      #77117b 100%
-    );
+    background: radial-gradient(
+    50% 62.97% at 50% 37.03%,
+    #BED8D4 1.93%,
+    #2081C3 100%
+  );
   }
   
   .container {
@@ -31,6 +29,7 @@
     z-index: -1;
     transform: translate(-50%, -50%);
     border-radius: 44px;
+    color: black;
   }
   
   #logo {
@@ -59,7 +58,7 @@
   .circle {
     height: 15rem;
     width: 15rem;
-    background: linear-gradient(180deg, #74107c 11.03%, #c9256b 100%);
+    background: linear-gradient(180deg, #BED8D4 11.03%, #2081C3 100%);
     transform: rotate(30deg);
     border-radius: 50%;
     display: inline-block;
